@@ -1,0 +1,12 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "create-block/example-block-registration",
+	"version": "0.1.0",
+	"title": "Example Block Registration",
+	"category": "widgets",
+	"textdomain": "example-block-registration",
+	"editorScript": "file:./build/index.js",
+	"editorStyle": "file:./build/index.css",
+	"style": "file:./build/style-index.css"
+}
