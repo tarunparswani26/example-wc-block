@@ -80,27 +80,8 @@ const Save = ({
     text
   } = attributes;
   return (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
-    ...blockProps
-  }, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
-    id: "coupons_list",
-    style: {}
-  }, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("h3", null, "Available Coupons (click on a coupon to use it)"), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
-    id: "sc-cc"
-  }, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
-    id: "all_coupon_container",
-    className: "sc-coupons-list"
-  }, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
-    className: "transition duration-100 ease-in-out transform border-2 rounded-sm sc-coupon hover:scale-105 apply_coupons_credits",
-    style: {
-      minHeight: '6rem',
-      backgroundColor: 'var(--sc-color2)',
-      color: 'var(--sc-color1)',
-      borderColor: 'var(--sc-color2)'
-    },
-    "data-coupon_code": "9sm6q1d9y2j8d"
-  }, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
-    className: "inline-flex flex-row-reverse items-center mr-1"
-  }, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("span", null, "10"), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("span", null, "$")), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("span", null, "Store Credit"))))));
+    ..._wordpress_block_editor__WEBPACK_IMPORTED_MODULE_2__.useBlockProps.save()
+  });
 };
 
 /***/ }),
